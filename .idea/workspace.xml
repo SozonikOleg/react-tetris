@@ -20,14 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29144cfe-b41d-48af-8a61-951c3861eee8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Stage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tetris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gameHelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tetrominos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cell.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Display.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/StartingButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StartingButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Stage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tetris.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tetris.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
