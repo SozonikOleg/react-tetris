@@ -1,7 +1,8 @@
 import React from "react";
+import { StyledStartButton } from '../components/styles/StaledStartButton';
 
 const StartButton = () => (
-    <div>StartButton</div>
+    <StyledStartButton>Start Button</StyledStartButton>
 )
 
 export default StartButton;

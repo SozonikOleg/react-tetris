@@ -20,14 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29144cfe-b41d-48af-8a61-951c3861eee8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Stage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tetris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styles/StaledStartButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styles/StyledDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styles/StyledStage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/styles/StyledTetris.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Cell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Cell.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Display.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Display.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Stage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Stage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/StartingButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/StartingButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tetris.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tetris.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +65,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.CommitDialog" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -120,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608650009409</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[part-2]: added styled component">
+      <created>1608721437761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608721437761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,40 +153,49 @@
     <MESSAGE value="[dev]: initial commit" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="[dev]: add font and img" />
-    <option name="LAST_COMMIT_MESSAGE" value="[dev]: add font and img" />
+    <MESSAGE value="[part-2]: added styled component" />
+    <MESSAGE value="[part-2]: added buttons" />
+    <option name="LAST_COMMIT_MESSAGE" value="[part-2]: added buttons" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1009" y="277" key="FileChooserDialogImpl" timestamp="1608649490527">
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608722328693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1009" y="277" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608649490527" />
-    <state width="1341" height="381" key="GridCell.Tab.0.bottom" timestamp="1608649547419">
+    <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608722328693" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608723765096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1341" height="381" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608649547419" />
-    <state width="1341" height="381" key="GridCell.Tab.0.center" timestamp="1608649547419">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608723765096" />
+    <state width="1899" height="464" key="GridCell.Tab.0.bottom" timestamp="1608723971382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1341" height="381" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608649547419" />
-    <state width="1341" height="381" key="GridCell.Tab.0.left" timestamp="1608649547419">
+    <state width="1899" height="464" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608723971382" />
+    <state width="1899" height="464" key="GridCell.Tab.0.center" timestamp="1608723971382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1341" height="381" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608649547419" />
-    <state width="1341" height="381" key="GridCell.Tab.0.right" timestamp="1608649547419">
+    <state width="1899" height="464" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608723971382" />
+    <state width="1899" height="464" key="GridCell.Tab.0.left" timestamp="1608723971381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1341" height="381" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608649547419" />
-    <state x="821" y="255" key="Vcs.Push.Dialog.v2" timestamp="1608650121476">
+    <state width="1899" height="464" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608723971381" />
+    <state width="1899" height="464" key="GridCell.Tab.0.right" timestamp="1608723971382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="821" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608650121476" />
+    <state width="1899" height="464" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608723971382" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608721442185">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608721442185" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608718442233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608718442233" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/App.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

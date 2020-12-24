@@ -1,7 +1,8 @@
 import React from "react";
+import { StyledDisplay } from "./styles/StyledDisplay";
 
 const Display = ({text}) => (
-    <div>{text}</div>
+    <StyledDisplay>{text}</StyledDisplay>
 )
 
 export default Display;
