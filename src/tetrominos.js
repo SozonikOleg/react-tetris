@@ -1,5 +1,5 @@
 export const TETROMINOS = {
-    0: { shape: [[0]], color: '0,0,0,'},
+    0: { shape: [[0]], color: '0,0,0'},
     I: {
         shape: [
             [0, 'I', 0, 0],
@@ -25,14 +25,14 @@ export const TETROMINOS = {
         ],
         color: '36, 95, 223',
     },
-    o: {
+    O: {
         shape: [
             ['o','o'],
             ['o','o'],
         ],
         color: '223, 173, 36',
     },
-    s: {
+    S: {
         shape: [
             [0,'s','s'],
             ['s','s',0],
@@ -48,7 +48,7 @@ export const TETROMINOS = {
         ],
         color: '132, 61, 198',
     },
-    z: {
+    Z: {
         shape: [
             ['z','z',0],
             [0,'z','z'],
